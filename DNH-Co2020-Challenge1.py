@@ -37,7 +37,7 @@ Example:
 Input would be '10.1.1.0/24' and when printed out the output would be '10.1.1.0/255.255.255.0'
 '''
 
-# I found lots of ways to break this, needs input validation, error checking
+# Lots of ways to break this, needs input validation, error checking
 while True:
     ipaddr = input("Enter IP in CIDR notation w.x.y.z/nn or 'quit' to exit: ")
     if ipaddr == "quit":
